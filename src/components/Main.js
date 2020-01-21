@@ -5,7 +5,7 @@ export default class Main extends Component{
       super(props)
 
       this.state = {
-        novaTarefa: '',
+
       }
     }
 
@@ -15,11 +15,11 @@ export default class Main extends Component{
           <h1>Standard Flutter</h1>
 
           <form action="#">
-            <input onChange={this.inputPlus} type="text" />
+            <input type="text" />
             <button type="submit">Enviar</button>
           </form>
         </div>
 
-      );
+      )
     }
 }
