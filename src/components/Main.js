@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import { FaPlus } from 'react-icons/fa'
+
+// Tasks
+import { FaEdit, FaWindowClose } from 'react-icons/fa'
 import './Main.css'
 
 export default class Main extends Component{
@@ -38,7 +41,12 @@ state = {
 
           <ul className="tasks">
             {tasks.map(task => (
-              <li>{task}</li>
+              <li key={task}>{task}
+              <div>
+                <FaEdit className="edit" />
+                <FaWindowClose className="delete" />
+              </div>
+              </li>
             ))}
           </ul>
         </div>
