@@ -1,2 +1,2 @@
-# Standard TaskList
+# Standard
 
