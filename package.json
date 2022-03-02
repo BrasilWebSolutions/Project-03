@@ -1,0 +1,30 @@
+{
+  "name": "standard-flutter",
+  "version": "0.0.1",
+  "description": "Blockchain Standard Flutter",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StandardFlutter/Standard.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Javascript",
+    "Blockchain"
+  ],
+  "author": "Fernando Britto",
+  "bugs": {
+    "url": "https://github.com/StandardFlutter/Standard/issues"
+  },
+  "homepage": "https://github.com/StandardFlutter/Standard#readme",
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "prettier": "^2.5.1"
+  }
+}
